@@ -1,0 +1,45 @@
+America Bank Dashboard
+
+Problem Statement
+This dashboard provides comprehensive insights into America Bank's customer demographics, loan profiles, and financial engagement. It helps identify trends in loan defaults, customer segmentation, and account balances. The insights enable the bank to optimize marketing strategies, improve customer retention, and minimize loan default risks.
+The dashboard highlights key metrics such as customer balances, loan outcomes, and demographic distributions.
+
+Steps Followed
+	1. Data Loading:
+		○ Imported customer and banking data from an Excel file into Power BI.
+		○ Verified and cleaned data using Power Query.
+	2. Data Transformation:
+		○ Converted monetary values (e.g., balances) into numeric formats for analysis.
+		○ Handled null and unknown values in columns like "poutcome" and "contact."
+		○ Created calculated columns for customer segmentation by age groups and job classifications.
+	3. Data Modeling:
+		○ Established relationships between customer attributes and banking metrics.
+		○ Created measures using DAX to calculate KPIs like average balance, loan default rate, and distribution by education level.
+	4. Visualization:
+		○ Designed an interactive dashboard featuring: 
+			§ Customer segmentation by age, marital status, and education level.
+			§ Loan statistics (e.g., house loans, other loans, loan default rates).
+			§ Regional distribution of account balances and customer demographics.
+			§ Trends in bank engagement (e.g., contact outcomes, date joined).
+	5. Insights Generation:
+		○ Conducted analysis to identify default risks and high-value customer profiles.
+	6. Publishing:
+		○ Published the dashboard to Power BI Service for real-time collaboration.
+
+Key Insights
+	1. Customer Demographics:
+		○ The majority of customers are aged between 30-50, with a mix of white-collar and blue-collar professions.
+		○ Education levels vary significantly, with tertiary-educated customers holding higher average balances.
+	2. Loan Statistics:
+		○ A small percentage of customers defaulted on loans, primarily those with multiple loan types.
+		○ Customers with higher balances are less likely to default.
+	3. Regional Insights:
+		○ California accounts for the highest customer count and overall balances.
+		○ Wyoming shows lower customer engagement, suggesting potential for focused marketing efforts.
+	4. Customer Engagement:
+		○ Most customers were contacted via cellular methods, but outcomes like "failure" and "unknown" highlight areas for process improvement.
+		○ Customers with "unknown" contact methods correlate with higher default rates.
+	5. Account Balances:
+		○ The average account balance is skewed by a small subset of high-value accounts.
+		○ Customers without house loans have significantly lower balances.
+> 
